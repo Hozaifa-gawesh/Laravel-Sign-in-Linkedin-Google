@@ -1,0 +1,21 @@
+body {
+    direction: ltr;
+}
+.user-login-5 .text-right {
+    text-align: right;
+}
+.mt-login-5-bsfix {
+    left: auto;
+    right: 0;
+}
+.user-login-5 .login-container > .login-footer .login-social {
+    padding-left: 80px;
+    padding-right: 0;
+}
+.page_login .mt-checkbox>span:after, .page_register .mt-checkbox>span:after {
+    right: auto;
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+}

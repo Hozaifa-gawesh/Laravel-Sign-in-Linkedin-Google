@@ -1,0 +1,91 @@
+body {
+    direction: ltr;
+}
+.page-footer .page-footer-inner .copyright {
+    top: 0;
+}
+.dir_ltr_links::placeholder {
+    text-align: left;
+}
+.dir_ltr_links:-ms-input-placeholder {
+    text-align: left;
+}
+.dir_ltr_links::-ms-input-placeholder {
+    text-align: left;
+}
+.navbar-nav>li>a.lang_switcher {
+    padding: 23px 15px;
+}
+.page-head a {
+    float: right;
+}
+.permission_box input {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.no_subscription .box_sub {
+    margin-left: 0;
+    margin-right: 40px;
+}
+.no_subscription .box_sub input[type=radio] {
+    right: auto;
+    left: 4px;
+}
+.no_subscription .box_sub input.limit_members {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.del_pro button, .btn_rule {
+    float: right;
+}
+.del_pro button {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.accordion-toggle input {
+    left: auto;
+    right: 15px;
+}
+.choose_forms {
+    left: auto;
+    right: -5px;
+}
+.search-content label {
+    right: auto;
+    left: 18px;
+}
+.profile-usermenu ul li a i.side_discount_bar {
+    float: right;
+}
+.places_data .panel-collapse ul li button, .main_city button {
+    left: auto;
+    right: 5px;
+    margin-left: 0;
+    margin-right: 8px;
+}
+.places_data .accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled {
+    margin-left: 0;
+    margin-right: 70px;
+}
+.places_data .accordion .panel .panel-title .accordion-toggle {
+    padding: 10px 100px 10px 15px;
+}
+.spinnerBTN {
+    right: auto;
+    left: 5px;
+}
+.form-actions button {
+    margin-right: 7px;
+}
+
+@media (max-width: 767px) {
+    .page-header.navbar .page-top {
+        float: right;
+    }
+}
+
+@media (max-width: 400px) {
+    .page-header.navbar .top-menu .navbar-nav>li.dropdown-user {
+        padding: 0 0 0 5px;
+    }
+}
